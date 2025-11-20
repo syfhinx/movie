@@ -1,16 +1,154 @@
-[00:00:01.664] Server  LOG      ✓ Ready in 1244ms
-[00:40:25.365] Server  LOG        Reload env: .env
-[00:45:35.999] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:45:36.112] Server  LOG      ✓ Compiled in 66ms
-[00:45:58.249] Server  LOG      ✓ Compiled in 463ms
-[01:10:54.468] Server  LOG      ○ Compiling / ...
-[01:10:58.942] Server  LOG     
+[00:00:01.231] Server  LOG      ✓ Ready in 887ms
+[00:00:05.089] Server  LOG      ○ Compiling / ...
+[00:00:07.628] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:34.937] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:12.427] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:12.491] Server  LOG      ✓ Compiled in 12ms
+[00:21:13.654] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:15.316] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.341] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.363] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.388] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.411] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.432] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:15.432] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:15.432] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:15.442] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.494] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.503] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.509] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.534] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.542] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.553] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.561] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.576] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.593] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.599] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.612] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.617] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.635] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.643] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.749] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.754] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.757] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.763] Browser ERROR   uncaughtError: Error: ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+
+[00:21:15.773] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.796] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.798] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.801] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:15.827] Server  ERROR    ⨯ Error: The Middleware file "/middleware" must export a function named `middleware` or a default function.
+[00:21:16.654] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:16.654] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:16.655] Browser ERROR   ./middleware.ts
+Middleware is missing expected function export name
+This function is what Next.js runs for every request handled by this middleware.
+
+Why this happens:
+- The file exists but doesn't export a function.
+- The export is not a function (e.g., an object or constant).
+- There's a syntax error preventing the export from being recognized.
+
+To fix it:
+- Ensure this file has either a default or "middleware" function export.
+
+Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:21:36.306] Server  LOG      ✓ Compiled in 967ms
+[00:21:44.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:48.383] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:31.339] Server  LOG      ✓ Compiled in 1932ms
+[00:22:31.342] Server  LOG     
 
 [Clerk]: You are running in keyless mode.
 You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=8oxl9fggnkz70c8bh56k7arux1sw96nzk6s0oywc&return_url=http%3A%2F%2Flocalhost%3A3000%2F
 
-[01:10:59.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:00.030] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[01:11:03.717] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
-[01:11:32.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:32.455] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:22:31.377] Server  LOG      ✓ Compiled in 0ms
+[00:22:33.653] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:22:53.107] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
+[00:23:58.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:58.767] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
