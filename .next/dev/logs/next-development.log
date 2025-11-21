@@ -1,16 +1,21 @@
-[00:00:01.664] Server  LOG      ✓ Ready in 1244ms
-[00:40:25.365] Server  LOG        Reload env: .env
-[00:45:35.999] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:45:36.112] Server  LOG      ✓ Compiled in 66ms
-[00:45:58.249] Server  LOG      ✓ Compiled in 463ms
-[01:10:54.468] Server  LOG      ○ Compiling / ...
-[01:10:58.942] Server  LOG     
+[00:00:01.382] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.499] Server  LOG      ✓ Ready in 1228ms
+[00:00:07.736] Server  LOG      ○ Compiling / ...
+[00:00:08.672] Server  LOG     
 
 [Clerk]: You are running in keyless mode.
 You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=8oxl9fggnkz70c8bh56k7arux1sw96nzk6s0oywc&return_url=http%3A%2F%2Flocalhost%3A3000%2F
 
-[01:10:59.441] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:00.030] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
-[01:11:03.717] Browser WARN    Clerk: The prop "redirectUrl" is deprecated and should be replaced with the new "fallbackRedirectUrl" or "forceRedirectUrl" props instead. Learn more: https://clerk.com/docs/guides/custom-redirects#redirect-url-props
-[01:11:32.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:11:32.455] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:00:09.012] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.599] Browser WARN    Clerk: Clerk has been loaded with development keys. Development instances have strict usage limits and should not be used when deploying your application to production. Learn more: https://clerk.com/docs/deployments/overview
+[00:21:44.456] Server  LOG      ✓ Compiled in 62ms
+[00:21:45.792] Server  LOG     
+
+[Clerk]: You are running in keyless mode.
+You can claim your keys by visiting https://dashboard.clerk.com/apps/claim?token=8oxl9fggnkz70c8bh56k7arux1sw96nzk6s0oywc&return_url=http%3A%2F%2Flocalhost%3A3000%2F
+
+[00:25:42.330] Server  LOG      ✓ Compiled in 31ms
+[00:27:25.098] Browser ERROR   [1m[36m[Clerk Debug][0m [2m2025-11-21T08:13:47.704Z[0m [31mERROR[0m[90m[fapiClient][0m: [37mnetwork error[0m[2m {"error":{},"url":"https://logical-ibex-9.clerk.accounts.dev/v1/client/sessions/sess_35jYJZOLrMDiSKy8WiWG0MXgUjE/touch?__clerk_api_version=2025-11-10&_clerk_js_version=5.109.1&__clerk_db_jwt=dvb_35gmVxdPC5nE0ObrsxZ6NDOg8wh","method":"POST"}[0m
+[00:27:25.099] Browser ERROR   [1m[36m[Clerk Debug][0m [2m2025-11-21T08:13:47.710Z[0m [31mERROR[0m[90m[fapiClient][0m: [37mnetwork error[0m[2m {"error":{},"url":"https://logical-ibex-9.clerk.accounts.dev/v1/client/sessions/sess_35jYJZOLrMDiSKy8WiWG0MXgUjE/tokens?__clerk_api_version=2025-11-10&_clerk_js_version=5.109.1&__clerk_db_jwt=dvb_35gmVxdPC5nE0ObrsxZ6NDOg8wh","method":"POST"}[0m
+[00:27:28.952] Browser ERROR   [1m[36m[Clerk Debug][0m [2m2025-11-21T08:13:50.740Z[0m [31mERROR[0m[90m[fapiClient][0m: [37mnetwork error[0m[2m {"error":{},"url":"https://logical-ibex-9.clerk.accounts.dev/v1/environment?__clerk_api_version=2025-11-10&_clerk_js_version=5.109.1&_clerk_session_id=sess_35jYJZOLrMDiSKy8WiWG0MXgUjE&__clerk_db_jwt=dvb_35gmVxdPC5nE0ObrsxZ6NDOg8wh&_clerk_retry_attempt=3","method":"GET"}[0m
+[00:27:28.952] Browser ERROR   unhandledRejection: Error: ClerkJS: Network error at "https://logical-ibex-9.clerk.accounts.dev/v1/environment?__clerk_api_version=2025-11-10&_clerk_js_version=5.109.1&_clerk_session_id=sess_35jYJZOLrMDiSKy8WiWG0MXgUjE&__clerk_db_jwt=dvb_35gmVxdPC5nE0ObrsxZ6NDOg8wh&_clerk_retry_attempt=3" - TypeError: Failed to fetch. Please try again.
